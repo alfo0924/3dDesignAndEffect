@@ -70,7 +70,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const loader = new THREE.GLTFLoader();
     let model; // 用於儲存載入的模型
 
-    // **重要提示：請將下面的路徑替換為您自己的小熊 GLTF/GLB 模型檔案路徑**
+    // **重要提示：請將下面的路徑替換為您自己的狐狸 GLTF/GLB 模型檔案路徑**
     // 這是一個公開的狐狸模型作為範例，您需要替換它。
     // 例如: const modelPath = 'models/your_bear.gltf';
     const modelPath = 'https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Models/master/2.0/Fox/glTF-Binary/Fox.glb';
