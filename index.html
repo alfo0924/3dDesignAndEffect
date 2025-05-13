@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>3D 小熊互動模型</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="instructions">
+    使用滑鼠左鍵拖曳：旋轉小熊<br>
+    使用滑鼠滾輪：放大/縮小小熊
+</div>
+<canvas id="bearCanvas"></canvas>
+
+<!-- Three.js 核心函式庫 -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+<!-- GLTF 模型載入器 -->
+<script src="https://unpkg.com/three@0.128.0/examples/js/loaders/GLTFLoader.js"></script>
+<!-- OrbitControls 用於滑鼠互動控制 -->
+<script src="https://unpkg.com/three@0.128.0/examples/js/controls/OrbitControls.js"></script>
+<!-- 您的主要 JavaScript 檔案 -->
+<script src="app.js"></script>
+</body>
+</html>
